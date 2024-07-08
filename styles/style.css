@@ -1,0 +1,153 @@
+/* Shared Content */
+*{
+    margin: 0;
+    padding: 0;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 20px 43px 20px 43px;
+}
+
+figcaption{
+    text-decoration: underline;
+    color: rgb(39, 39, 39);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 540px;
+    margin-left: 120px;
+}
+
+
+/* banner styles */
+.banner-container{
+    max-width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 178px;
+
+}
+
+.banner-text-content h1{
+    color: rgb(39, 39, 39);
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 240px;
+    margin-bottom: 32px;
+}
+.banner-text-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 240px;
+    margin-bottom: 32px;
+
+}
+.btn .btn-primary{
+    margin-left: 240px;
+}
+
+
+.banner-content-image img{
+    margin-top: 57px;
+   
+}
+
+/* Featured Section Starts here */
+.featured-container{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+   
+    
+
+}
+
+.featured-text-container{
+    margin-bottom: 48px;
+}
+
+.featured-text-container h2{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.featured-text-container p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.featured-image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:200px;
+}
+
+.featured-image-container .pink-flower-tree{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    background-image: url(../Flower-Asset/pngwing-6.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:bottom;
+
+
+}
+
+.featured-image-container .pink-flower-tree2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(5, 151, 160, 0.15); 
+    background-image: url(../Flower-Asset/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:bottom;
+
+}
+
+.featured-image-container .pink-flower-tree3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);;
+    background-image: url(../Flower-Asset/pngwing-7.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:bottom;
+
+}
+
+.featured-container-support{
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
