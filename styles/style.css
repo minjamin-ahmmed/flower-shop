@@ -177,3 +177,105 @@ margin-bottom: 24px;
     text-align: center;
     margin-bottom:32px;
 }
+ /* contact container starts here */
+
+ .contact-container{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+ 
+ .contact-container-text{
+    margin-bottom:48px;
+ }
+ .contact-container-text h1{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+ }
+
+ .contact-container-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+ }
+
+ .contact-conatiner-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 128px;
+ }
+
+ .contact-conatiner-image .image1{
+    width: 342px;
+    height: 396px;
+    background-image: url(../Flower-Asset/flower.png);
+
+ }
+
+ .contact-conatiner-image .image2{
+    width: 342px;
+    height: 396px;
+    background-image: url(../Flower-Asset/rectangle-4.png);
+
+ }
+
+ .contact-conatiner-image .image3{
+    width: 342px;
+    height: 396px;
+    background-image: url(../Flower-Asset/rectangle-5.png);
+
+ }
+
+ .contact-conatiner-image .image4{
+    width: 342px;
+    height: 396px;
+    background-image: url(../Flower-Asset/rectangle-6.png);
+
+ }
+
+ .contact-container-email{
+    width:1440px;
+    height: 449px;
+    background-image: url(../Flower-Asset/rectangle-9.png);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .contact-container-email h1{
+    color: rgb(39, 39, 39);
+font-size: 40px;
+margin-bottom: 16px;
+ }
+
+ .contact-container-email p{
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 48px;
+
+ }
+
+ .contact-container-form{
+    display: flex;
+    align-items: center;
+
+ }
+ .contact-container-form input[type="email"]{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+padding: 23px 22px;
+margin-right: 16px;
+ }
+
